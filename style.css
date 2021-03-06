@@ -1,0 +1,177 @@
+body{
+    
+}
+.navbar{
+    background-color: #5cdb95 !important;
+    color: white !important;
+}
+#navLogo{
+    width: 200px !important;
+    height: auto;
+    margin-left: 20px;
+}
+.nav-link{
+    margin-right: 20px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 70px;
+    padding-left: 10px !important;
+    
+}
+.nav-link:hover{
+    color: #5cdb95;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.burgerButton{
+    height: 40px;
+    width: 40px;
+}
+.d-block{
+    height: 500px;
+    width: 100%;
+}
+
+.tag{
+    margin: 30px auto ;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    border: gray 2px solid;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+
+}
+.taglink{
+    color: inherit;
+}
+.taglink:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.tagimg{
+    width: 60px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto
+}
+*{
+    /* border: 1px solid black; */
+}
+.tagheading{
+    color: #5cdb95;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.facilitiesDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px ;
+    justify-content: center;
+    
+}
+.facilities{
+    border-radius: 15px;
+    border: #5cdb95 3px solid;
+    width: 265px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.facilitiesImg{
+    width: 250px;
+    height: auto;
+}
+.facilitiesHeading{
+    text-align: center;
+    color: #5cdb95;
+    font-family: 'Akaya Telivigala', cursive;
+
+
+}
+.facilitiesdetail{
+    color: gray;
+    text-align: center;
+}
+a,a:hover{
+    text-decoration: none !important;
+    text-transform: none;
+    color: inherit
+
+}
+
+.bookingImg{
+    width: 300px;
+    height: auto;
+}
+.booking{
+    text-align: center;
+
+}
+.ratingstitle{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30pt;
+}
+.ratingDiv{
+    text-align: center;
+}
+.rating{
+    /* margin-left: 100px !important; */
+    margin: 15px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    min-width: 280px;
+    height: auto;
+    border-radius: 10px;
+    border: gray 2px solid;
+    
+}
+.rating1{
+    background-color: #5cdb95;
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+.rating2{
+    background-color: black;
+    color: white;
+    flex: 2;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+}
+.rating3{
+    
+    border-radius: 7px;
+    flex: 3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+.footer{
+    margin-top: 20%;
+    background-color: #5cdb95;
+    color: white;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.footer>p,a{
+    margin: 10px;
+}
